@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Assignment 4</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <script src="scripts/default.js"></script>
+</head>
+
+<body>
+    <div>
+        <form name="registration" action="success.html" onsubmit="return formValidate()" method="post">
+            <h1>Hackathon Sign Up Form</h1>
+            <label>Name:</label>
+            <input type="text" name="user_name">
+            <br>
+            <label>Email:</label>
+            <input type="text" name="user_email">
+            <br>
+            <label>Password:</label>
+            <input type="password" name="user_password" id="pass1">
+            <br>
+            <label>Confirm Password:</label>
+            <input type="password" name="user_password_again" id="pass2">
+            <br>
+            <label>Telephone No. (format: xxx-xxx-xxxx):</label>
+            <input type="text" name="user_tel">
+            <br>
+            <label>Website (format: http://x.y):</label>
+            <input type="text" name="user_site">
+            <br>
+            <br>
+            <input type="submit" value="Sign Up">
+            <br>
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+</body>
+
+</html>
